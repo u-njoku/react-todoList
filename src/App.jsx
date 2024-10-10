@@ -46,10 +46,13 @@ function App() {
     }
     function handleEditTodo(index)
     {
+      
       const valuToBeEdited = todos[index]
-      persistData(newTodoList)
+      console.log(valuToBeEdited)
       setTodoValue(valuToBeEdited)
+      console.log("we got here")
       handleDeleteTodo(index)
+      console.log("oh no")
 
 
     }
